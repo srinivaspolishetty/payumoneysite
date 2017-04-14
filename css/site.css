@@ -1,0 +1,84 @@
+body
+{
+	font-family: "verdana";
+	color:#555555;
+}
+.dropdown-menu {
+	min-width: 200px;
+}
+.dropdown-menu.columns-2 {
+	min-width: 400px;
+}
+.dropdown-menu.columns-3 {
+	min-width: 600px;
+}
+.dropdown-menu li a {
+	padding: 5px 15px;
+	font-weight: 300;
+}
+.multi-column-dropdown {
+	list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+.multi-column-dropdown li a {
+	display: block;
+	clear: both;
+	line-height: 1.428571429;
+	color: #333;
+	white-space: normal;
+}
+.multi-column-dropdown li a:hover {
+	text-decoration: none;
+	color: #262626;
+	background-color: #999;
+}
+ 
+@media (max-width: 767px) {
+	.dropdown-menu.multi-column {
+		min-width: 240px !important;
+		overflow-x: hidden;
+	}
+}
+
+
+.mainrow
+{
+	margin:10px 0px 10px 0px;
+}
+
+.mainitem
+{
+	margin:0;
+	padding:15px 0px 15px 0px;
+	background-color:#ffffff;
+	text-align:center;
+	box-shadow: 1px 1px 5px #cccccc;
+}
+.mainitem .itemname
+{
+	padding:10px;
+	display:block;
+	font-weight:bold;
+	font-size:14px;
+}
+.mainitem .itemcategory
+{
+	color:#ff0000;
+}
+.mainitem .itemcheckout
+{
+	padding:10px 10px 0px 10px;
+}
+
+.mainitem .itemcheckout .itemprice i
+{
+	font-size:24px;
+	font-weight: normal;
+}
+.mainitem .itemcheckout .itemprice
+{
+	padding:18px 0px 0px 20px;
+	font-size: 22px;
+	color:#000000;
+}
